@@ -1,12 +1,12 @@
-# Mini-projet PORTFOLIO
+# Mini-projet SITE DE LOCATION
  
-Site internet de présentation de mes réalisations en aquarelle.
+Site internet de présentation de mes locations de véhicules de luxe.
  
 ## Fonctionnalités
  
 ### Front-office
-- Accueil : Liste de mes réalisations en page d'accueil
-- Page de détail : Présentation d'une réalisation
+- Accueil : Liste de mes véhicules a louer en page d'accueil
+- Page de détail : Présentation des véhicules (Type, Boite De Vitesse, Puissance, Nombre De Place, Transmission, Carburant)
  
 ### Back-office
 - Page de création de réalisation (si possible)
@@ -15,10 +15,10 @@ Site internet de présentation de mes réalisations en aquarelle.
 ## Structure des données
  
 Une réalisation sera composée de :
-- Nom* : champs de texte de 80 caractères
-- Description  : zone de texte
-- Année * : un nombre
-- Image * : une URL
+- Modèle du véhicule : varchar (petite zone de texte)
+- Description du véhicule : texte(grande zone de texte)
+- Année du véhicule : date
+- Image du véhicule : url varchar (petite zone de texte)
 * Champs obligatoires
  
 ## Etapes du projet
