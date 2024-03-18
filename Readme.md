@@ -14,11 +14,12 @@ Site internet de présentation de mes locations de véhicules de luxe.
  
 ## Structure des données
  
-Une réalisation sera composée de :
-- Modèle du véhicule : varchar (petite zone de texte)
-- Description du véhicule : texte(grande zone de texte)
-- Année du véhicule : date
-- Image du véhicule : url varchar (petite zone de texte)
+Un vehicule sera composée de :
+
+- Modèle* : varchar (petite zone de texte)
+- Description* : texte(grande zone de texte)
+- Année* : date
+- Image* : url varchar (petite zone de texte)
 * Champs obligatoires
  
 ## Etapes du projet
