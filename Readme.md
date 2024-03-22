@@ -20,6 +20,7 @@ Un vehicule sera composée de :
 - Description* : texte(grande zone de texte)
 - Année* : date
 - Image* : url varchar (petite zone de texte)
+- Prix* : int
 * Champs obligatoires
  
 ## Etapes du projet
@@ -33,8 +34,9 @@ Un vehicule sera composée de :
  
 ## Script PHP - Page d'accueil
  
-- 1) Connexion à la base de données
-- 2) Requête SELECT de récupération les informations (musiques, articles, voitures, ...)
-- 3) Boucler sur le résultat pour afficher chaque information.
- 
+- 1) Connexion à la base de données ✅
+- 2) Requête SELECT de récupération les informations (musiques, articles, voitures, ...) ✅
+- 3) Boucler sur le résultat pour afficher chaque information. ✅
+- 4) Ajouter à la page les balise HTML standard 
+- 5) Mettre en forme la liste des informations
 ## Script PHP - Page détails

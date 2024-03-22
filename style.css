@@ -1,0 +1,63 @@
+body {
+    background-color:black;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    color: aqua;
+} 
+
+.container {
+    display: flex;
+    width: 1910px;
+    height: 350px;
+    position: relative;
+}
+
+.titre {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Luxurious Script";
+    font-weight: 400;
+    font-size: 150px;
+    color: yellow;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    line-height: 30px;
+    font-size: 12px;
+    gap: 15px;
+    margin: 15px;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.voiture {
+    height: 270px;
+    width: 400px;
+    border-radius: 30px;
+    
+}
+ 
+nav {
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: notable;
+}
+ 
+nav a {
+    float: left;
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+} 
+
